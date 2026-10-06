@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Matvej-Povroznyk/JSA-15-16#readme",
   "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.16.4",
     "parcel": "^2.16.4"
   },
   "dependencies": {

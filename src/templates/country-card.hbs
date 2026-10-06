@@ -1,9 +1,9 @@
 <h2 class="country-title">{{name}}</h2>
 <div class="country-card">
   <div class="country-info">
-    <p><b>Capital:</b> {{capital}}</p>
-    <p><b>Population:</b> {{population}}</p>
-    <p><b>Languages:</b></p>
+    <p class="country-info__capital"><span>Capital: </span>{{capital}}</p>
+    <p class="country-info__population"><span>Population: </span>{{population}}</p>
+    <p class="country-info__languages"><span>Languages: </span></p>
     <ul>
       {{#each languages}}
         <li>{{this.name}}</li>
